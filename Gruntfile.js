@@ -17,11 +17,8 @@ module.exports = function(grunt) {
       options: {
         stderr: false
       },
-      'git-add-package': {
-        command: 'git add package.json'
-      },
-      'git-add-bower': {
-        command: 'git add bower.json'
+      'git-add': {
+        command: 'git add --all'
       },
       'git-commit-version': {
         command: 'git commit -m "increasing version"'
@@ -55,8 +52,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('git:increase-version', [ 'shell:git-add-package', 'shell:git-add-bower', 'shell:git-commit-version', 'shell:git-push' ]);
+  grunt.registerTask('git:increase-version', [ 'shell:git-add', 'shell:git-commit-version', 'shell:git-push' ]);
 
-  grunt.registerTask('publish', [ 'increase-version', 'git:increase-version', 'shell:npm-publish' ]);
+  grunt.registerTask('publish', [ 'uglify:min', 'increase-version', 'git:increase-version', 'shell:npm-publish' ]);
 
 };
