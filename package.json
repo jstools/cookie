@@ -1,32 +1,33 @@
 {
-  "name": "jstool-cookie",
-  "version": "0.0.1",
-  "description": "jstools cookie module",
-  "main": "cookie.js",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jstools/jstool-cookie.git"
-  },
-  "keywords": [
-    "javascript",
-    "jstools",
-    "demo"
-  ],
-  "author": "Jesús Manuel Germade Castiñeiras <jesus@germade.es>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jstools/jstool-cookie/issues"
-  },
-  "homepage": "https://github.com/jstools/jstool-cookie",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-uglify": "latest",
-    "grunt-increase-version": "latest",
-    "grunt-shell": "latest",
-    "load-grunt-tasks": "latest",
-    "time-grunt": "latest"
-  }
+    "name": "jstool-cookie",
+    "version": "0.0.2",
+    "description": "jstools cookie module",
+    "main": "cookie.js",
+    "jstool": "cookie.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jstools/jstool-cookie.git"
+    },
+    "keywords": [
+        "javascript",
+        "jstools",
+        "demo"
+    ],
+    "author": "Jesús Manuel Germade Castiñeiras <jesus@germade.es>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jstools/jstool-cookie/issues"
+    },
+    "homepage": "https://github.com/jstools/jstool-cookie",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-uglify": "latest",
+        "grunt-increase-version": "latest",
+        "grunt-shell": "latest",
+        "load-grunt-tasks": "latest",
+        "time-grunt": "latest"
+    }
 }
