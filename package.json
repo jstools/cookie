@@ -1,9 +1,8 @@
 {
     "name": "jstool-cookie",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "jstools cookie module",
     "main": "cookie.js",
-    "jstool": "cookie.js",
     "scripts": {
         "test": "grunt test"
     },
