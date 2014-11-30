@@ -1,26 +1,26 @@
 {
-  "name": "jstool-events",
-  "version": "0.0.8",
-  "description": "simple javascript events handler",
-  "main": "events.js",
+  "name": "jstool-empty",
+  "version": "0.0.1",
+  "description": "empty jstool example",
+  "main": "empty.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstools/events.git"
+    "url": "https://github.com/jstools/jstool-empty.git"
   },
   "keywords": [
     "javascript",
     "jstools",
-    "events"
+    "demo"
   ],
   "author": "Jesús Manuel Germade Castiñeiras <jesus@germade.es>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jstools/events/issues"
+    "url": "https://github.com/jstools/jstool-empty/issues"
   },
-  "homepage": "https://github.com/jstools/events",
+  "homepage": "https://github.com/jstools/jstool-empty",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-uglify": "latest",
