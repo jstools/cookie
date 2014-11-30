@@ -1,16 +1,16 @@
 {
-    "name": "jstool-events",
-    "main": "events.js",
+    "name": "jstool-cookie",
+    "main": "cookie.js",
     "version": "0.0.8",
-    "homepage": "https://github.com/jstools/events",
+    "homepage": "https://github.com/jstools/cookie",
     "authors": [
         "Jesús Germade <jesus@germade.es>"
     ],
-    "description": "simple javascript events handler",
+    "description": "simple javascript cookie handler",
     "keywords": [
         "javascript",
         "jstools",
-        "events"
+        "cookie"
     ],
     "license": "ISC",
     "ignore": [
