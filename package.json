@@ -1,6 +1,6 @@
 {
     "name": "jstool-cookie",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "jstools cookie module",
     "main": "cookie.js",
     "scripts": {
