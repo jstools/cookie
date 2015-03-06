@@ -2,17 +2,17 @@
 // cookies.js library from https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
 // adapted to be used with jstools-core
 
-(function (cookie) {
+(function (definition) {
 
   if ( typeof window === 'undefined' ) {
     if ( typeof module !== 'undefined' ) {
-      module.exports = cookie;
+      module.exports = definition();
     }
   } else {
     if ( window.fn ) {
-      fn.define('cookie', cookie)
+      fn.define('cookie', definition)
     } else if( !window.cookie ) {
-      window.cookie = cookie;
+      window.cookie = definition();
     }
   }
 
