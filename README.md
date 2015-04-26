@@ -1,3 +1,3 @@
-[![Bower version](https://badge.fury.io/bo/jstool-cookie.svg)](http://badge.fury.io/bo/jstool-cookie)
-jstool-cookie
-=============
+[![Bower version](https://badge.fury.io/bo/jn-cookie.svg)](http://badge.fury.io/bo/jn-cookie)
+jsTool: cookie
+==============

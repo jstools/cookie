@@ -1,8 +1,8 @@
 {
-    "name": "jstool-cookie",
+    "name": "jn-cookie",
     "main": "cookie.js",
     "version": "0.0.7",
-    "homepage": "https://github.com/jstools/cookie",
+    "homepage": "https://github.com/jstools/jn-cookie",
     "authors": [
         "Jesús Germade <jesus@germade.es>"
     ],
