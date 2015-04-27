@@ -1,4 +1,4 @@
-[![Bower version](https://badge.fury.io/bo/gear-cookie.svg)](http://badge.fury.io/bo/gear-cookie)
+[![Bower version](https://badge.fury.io/bo/jstools-cookie.svg)](http://badge.fury.io/bo/jstools-cookie)
 jsTool: cookie
 ==============
 ```.sh

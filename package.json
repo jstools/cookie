@@ -1,5 +1,5 @@
 {
-    "name": "gear-cookie",
+    "name": "jstools-cookie",
     "version": "0.0.7",
     "description": "jstools cookie module",
     "main": "cookie.js",
