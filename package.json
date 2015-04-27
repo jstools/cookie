@@ -1,5 +1,5 @@
 {
-    "name": "jn-cookie",
+    "name": "gear-cookie",
     "version": "0.0.7",
     "description": "jstools cookie module",
     "main": "cookie.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jstools/jn-cookie.git"
+        "url": "https://github.com/jstools/cookie.git"
     },
     "keywords": [
         "javascript",
@@ -18,9 +18,9 @@
     "author": "Jesús Manuel Germade Castiñeiras <jesus@germade.es>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/jstools/jn-cookie/issues"
+        "url": "https://github.com/jstools/cookie/issues"
     },
-    "homepage": "https://github.com/jstools/jn-cookie",
+    "homepage": "https://github.com/jstools/cookie",
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-contrib-uglify": "latest",
