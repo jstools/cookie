@@ -12,7 +12,7 @@
     } else if ( root.angular ) {
         var $cookie = factory();
         angular.module('jstools.cookie', [])
-          .provider(function () {
+          .provider('$cookie', function () {
 
             this.config = function (configFn) {
               configFn.call(null, $cookie);
