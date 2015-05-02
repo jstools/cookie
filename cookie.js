@@ -2,21 +2,32 @@
 // cookies.js library from https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
 // adapted to be used with jstools-core
 
-(function (definition) {
+(function (root, factory) {
 
-  if ( typeof window === 'undefined' ) {
-    if ( typeof module !== 'undefined' ) {
-      module.exports = definition();
-    }
+  if ( typeof module !== 'undefined' ) {
+    module.exports = factory();
   } else {
-    if ( window.fn ) {
-      fn.define('cookie', definition)
-    } else if( !window.cookie ) {
-      window.cookie = definition();
+    if ( root.define ) {
+        define('$cookie', factory);
+    } else if ( root.angular ) {
+        var $cookie = factory();
+        angular.module('jstools.cookie', [])
+          .provider(function () {
+
+            this.config = function (configFn) {
+              configFn.call(null, $cookie);
+            };
+
+            this.$get = function () {
+              return $cookie;
+            };
+          });
+    } else if( !root.$cookie ) {
+      root.$cookie = factory();
     }
   }
 
-})(function(){
+})(this, function(){
     'use strict';
 
     function cookie (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
