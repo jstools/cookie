@@ -1,6 +1,6 @@
 {
-    "name": "jengine-cookie",
-    "version": "0.1.0",
+    "name": "cookie-browser",
+    "version": "1.0.0",
     "description": "jstools cookie module",
     "main": "cookie.js",
     "scripts": {

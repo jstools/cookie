@@ -1,4 +1,4 @@
-jEngine: $cookie
+cookie-browser
 ================
 [![Bower version](https://badge.fury.io/bo/cookie-browser.svg)](http://badge.fury.io/bo/cookie-browser)
 
