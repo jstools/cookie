@@ -1,15 +1,15 @@
 jEngine: $cookie
 ================
-[![Bower version](https://badge.fury.io/bo/jengine-cookie.svg)](http://badge.fury.io/bo/jengine-cookie)
+[![Bower version](https://badge.fury.io/bo/cookie-browser.svg)](http://badge.fury.io/bo/cookie-browser)
 
 Installation
 ------------
 ```.sh
-npm install jengine-cookie --save
+npm install cookie-browser --save
 ```
 or
 ```.sh
-bower install jengine-cookie --save
+bower install cookie-browser --save
 ```
 
 Quick Usage

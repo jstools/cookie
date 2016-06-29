@@ -1,5 +1,5 @@
 {
-    "name": "jengine-cookie",
+    "name": "cookie-browser",
     "main": "cookie.js",
     "version": "0.1.0",
     "homepage": "https://github.com/jstools/cookie",
